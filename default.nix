@@ -13,10 +13,10 @@
 }:
 
 buildGoApplication {
-  pname = "caddy-with-cloudflare";
+  pname = "caddy-with-plugins";
   version = "2.10.0+20250604";
   pwd = ./.;
   src = ./.;
   modules = ./gomod2nix.toml;
-  meta.mainProgram = "caddy-with-cloudflare";
+  meta.mainProgram = "caddy-with-plugins";
 }
