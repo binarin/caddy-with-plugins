@@ -1,0 +1,4 @@
+/.direnv/
+/caddy-with-plugins
+/result
+*.bak

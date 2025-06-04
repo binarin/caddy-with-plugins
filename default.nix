@@ -14,7 +14,7 @@
 
 buildGoApplication {
   pname = "caddy-with-cloudflare";
-  version = "2.8.4+20241017";
+  version = "2.10.0+20250604";
   pwd = ./.;
   src = ./.;
   modules = ./gomod2nix.toml;
